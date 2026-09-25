@@ -1,0 +1,226 @@
+[
+  {
+    "id": "01_Kids_Lullaby_Bedtime",
+    "title": "01 Kids Lullaby Bedtime",
+    "folder": "01_Kids_Lullaby_Bedtime",
+    "count": 5,
+    "files": [
+      {
+        "name": "245_nocturne-op-9-no-3.mp3",
+        "relativePath": "free_playlists/01_Kids_Lullaby_Bedtime/245_nocturne-op-9-no-3.mp3"
+      },
+      {
+        "name": "816_sonata_no_14.mp3",
+        "relativePath": "free_playlists/01_Kids_Lullaby_Bedtime/816_sonata_no_14.mp3"
+      },
+      {
+        "name": "Sonata No. 14 in C Sharp Minor Moonlight, Op. 27 No. 2 - II. Allegretto.mp3",
+        "relativePath": "free_playlists/01_Kids_Lullaby_Bedtime/Sonata%20No.%2014%20in%20C%20Sharp%20Minor%20Moonlight%2C%20Op.%2027%20No.%202%20-%20II.%20Allegretto.mp3"
+      },
+      {
+        "name": "Symphony No. 5 in C Minor, Op. 67 - II. Andante con moto.mp3",
+        "relativePath": "free_playlists/01_Kids_Lullaby_Bedtime/Symphony%20No.%205%20in%20C%20Minor%2C%20Op.%2067%20-%20II.%20Andante%20con%20moto.mp3"
+      },
+      {
+        "name": "neeman-01-etude.mp3",
+        "relativePath": "free_playlists/01_Kids_Lullaby_Bedtime/neeman-01-etude.mp3"
+      }
+    ]
+  },
+  {
+    "id": "02_Kids_Peaceful_Sleep",
+    "title": "02 Kids Peaceful Sleep",
+    "folder": "02_Kids_Peaceful_Sleep",
+    "count": 5,
+    "files": [
+      {
+        "name": "1089_etude-op-25-no-7.mp3",
+        "relativePath": "free_playlists/02_Kids_Peaceful_Sleep/1089_etude-op-25-no-7.mp3"
+      },
+      {
+        "name": "245_nocturne-in-b-flat-minor-op-9.mp3",
+        "relativePath": "free_playlists/02_Kids_Peaceful_Sleep/245_nocturne-in-b-flat-minor-op-9.mp3"
+      },
+      {
+        "name": "816_sonata_no_14.mp3",
+        "relativePath": "free_playlists/02_Kids_Peaceful_Sleep/816_sonata_no_14.mp3"
+      },
+      {
+        "name": "Cello suite n. 1.mp3",
+        "relativePath": "free_playlists/02_Kids_Peaceful_Sleep/Cello%20suite%20n.%201.mp3"
+      },
+      {
+        "name": "Sonatina No. 1 in C Major - II. Andante.mp3",
+        "relativePath": "free_playlists/02_Kids_Peaceful_Sleep/Sonatina%20No.%201%20in%20C%20Major%20-%20II.%20Andante.mp3"
+      }
+    ]
+  },
+  {
+    "id": "03_Kids_Sweet_Dreams",
+    "title": "03 Kids Sweet Dreams",
+    "folder": "03_Kids_Sweet_Dreams",
+    "count": 5,
+    "files": [
+      {
+        "name": "1089_neeman-01-etude.mp3",
+        "relativePath": "free_playlists/03_Kids_Sweet_Dreams/1089_neeman-01-etude.mp3"
+      },
+      {
+        "name": "245_13-chopin-nocturne-op9.mp3",
+        "relativePath": "free_playlists/03_Kids_Sweet_Dreams/245_13-chopin-nocturne-op9.mp3"
+      },
+      {
+        "name": "Beethoven, Sonata No. 14.mp3",
+        "relativePath": "free_playlists/03_Kids_Sweet_Dreams/Beethoven%2C%20Sonata%20No.%2014.mp3"
+      },
+      {
+        "name": "Chopin - Twelve Etudes Op.25.mp3",
+        "relativePath": "free_playlists/03_Kids_Sweet_Dreams/Chopin%20-%20Twelve%20Etudes%20Op.25.mp3"
+      },
+      {
+        "name": "Sonatina No. 1 in C Major - II. Andante.mp3",
+        "relativePath": "free_playlists/03_Kids_Sweet_Dreams/Sonatina%20No.%201%20in%20C%20Major%20-%20II.%20Andante.mp3"
+      }
+    ]
+  },
+  {
+    "id": "04_Kids_Sunny_Morning",
+    "title": "04 Kids Sunny Morning",
+    "folder": "04_Kids_Sunny_Morning",
+    "count": 5,
+    "files": [
+      {
+        "name": "Chopin - Twelve Etudes Op.25 - 5. No.4 in E minor - Vivace.mp3",
+        "relativePath": "free_playlists/04_Kids_Sunny_Morning/Chopin%20-%20Twelve%20Etudes%20Op.25%20-%205.%20No.4%20in%20E%20minor%20-%20Vivace.mp3"
+      },
+      {
+        "name": "Sonata no. 16 In C 'Facile' [K 545] -0-Fabiomassimo Castelluzzo - Sonata No. 16 K545-2032-6876.mp3",
+        "relativePath": "free_playlists/04_Kids_Sunny_Morning/Sonata%20no.%2016%20In%20C%20%27Facile%27%20%5BK%20545%5D%20-0-Fabiomassimo%20Castelluzzo%20-%20Sonata%20No.%2016%20K545-2032-6876.mp3"
+      },
+      {
+        "name": "Tchaikovsky - Swan Lake Op.20 - Act I Intro.mp3",
+        "relativePath": "free_playlists/04_Kids_Sunny_Morning/Tchaikovsky%20-%20Swan%20Lake%20Op.20%20-%20Act%20I%20Intro.mp3"
+      },
+      {
+        "name": "another_waltz.mp3",
+        "relativePath": "free_playlists/04_Kids_Sunny_Morning/another_waltz.mp3"
+      },
+      {
+        "name": "waltz.mp3",
+        "relativePath": "free_playlists/04_Kids_Sunny_Morning/waltz.mp3"
+      }
+    ]
+  },
+  {
+    "id": "05_Kids_Joyful_Day",
+    "title": "05 Kids Joyful Day",
+    "folder": "05_Kids_Joyful_Day",
+    "count": 5,
+    "files": [
+      {
+        "name": "Chopin - Twelve Etudes Op.25 - 2. No.6 in G sharp minor - Allegro.mp3",
+        "relativePath": "free_playlists/05_Kids_Joyful_Day/Chopin%20-%20Twelve%20Etudes%20Op.25%20-%202.%20No.6%20in%20G%20sharp%20minor%20-%20Allegro.mp3"
+      },
+      {
+        "name": "Chopin - Twelve Etudes Op.25 - 5. No.4 in E minor - Vivace.mp3",
+        "relativePath": "free_playlists/05_Kids_Joyful_Day/Chopin%20-%20Twelve%20Etudes%20Op.25%20-%205.%20No.4%20in%20E%20minor%20-%20Vivace.mp3"
+      },
+      {
+        "name": "Goldberg Variations, BWV 988 - 05 - Variatio 4 a 1 Clav..mp3",
+        "relativePath": "free_playlists/05_Kids_Joyful_Day/Goldberg%20Variations%2C%20BWV%20988%20-%2005%20-%20Variatio%204%20a%201%20Clav..mp3"
+      },
+      {
+        "name": "Goldberg Variations, BWV 988 - 24 - Variatio 23 a 2 Clav..mp3",
+        "relativePath": "free_playlists/05_Kids_Joyful_Day/Goldberg%20Variations%2C%20BWV%20988%20-%2024%20-%20Variatio%2023%20a%202%20Clav..mp3"
+      },
+      {
+        "name": "Sonata no. 16 In C 'Facile' [K 545] -0-Fabiomassimo Castelluzzo - Sonata No. 16 K545-2032-6876.mp3",
+        "relativePath": "free_playlists/05_Kids_Joyful_Day/Sonata%20no.%2016%20In%20C%20%27Facile%27%20%5BK%20545%5D%20-0-Fabiomassimo%20Castelluzzo%20-%20Sonata%20No.%2016%20K545-2032-6876.mp3"
+      }
+    ]
+  },
+  {
+    "id": "06_Kids_Cheerful_Play",
+    "title": "06 Kids Cheerful Play",
+    "folder": "06_Kids_Cheerful_Play",
+    "count": 5,
+    "files": [
+      {
+        "name": "1089_etude-op-25-no-2-in-f-minor-the-bees-27f33347-aa7b-4d82-a632-1cf0e8bcaa77.mp3",
+        "relativePath": "free_playlists/06_Kids_Cheerful_Play/1089_etude-op-25-no-2-in-f-minor-the-bees-27f33347-aa7b-4d82-a632-1cf0e8bcaa77.mp3"
+      },
+      {
+        "name": "1351_eduardo-rondo_alla_turca_wolfgang_amadeus_mozart-cc-7e61c6fe-6892-4462-a08a-a57abeffe688.mp3",
+        "relativePath": "free_playlists/06_Kids_Cheerful_Play/1351_eduardo-rondo_alla_turca_wolfgang_amadeus_mozart-cc-7e61c6fe-6892-4462-a08a-a57abeffe688.mp3"
+      },
+      {
+        "name": "2690_etude-no-1-op-10-in-c-major-37f1a711-5eb2-4599-a3d2-597e7e806a63.mp3",
+        "relativePath": "free_playlists/06_Kids_Cheerful_Play/2690_etude-no-1-op-10-in-c-major-37f1a711-5eb2-4599-a3d2-597e7e806a63.mp3"
+      },
+      {
+        "name": "Mozart - Piano sonata No.11, Major - III. Alla Turca.mp3",
+        "relativePath": "free_playlists/06_Kids_Cheerful_Play/Mozart%20-%20Piano%20sonata%20No.11%2C%20Major%20-%20III.%20Alla%20Turca.mp3"
+      },
+      {
+        "name": "Tchaikovsky - Swan Lake Op.20 - Act I Intro.mp3",
+        "relativePath": "free_playlists/06_Kids_Cheerful_Play/Tchaikovsky%20-%20Swan%20Lake%20Op.20%20-%20Act%20I%20Intro.mp3"
+      }
+    ]
+  },
+  {
+    "id": "07_Kids_Active_Movement",
+    "title": "07 Kids Active Movement",
+    "folder": "07_Kids_Active_Movement",
+    "count": 5,
+    "files": [
+      {
+        "name": "1089_etude-op-25-no-4.mp3",
+        "relativePath": "free_playlists/07_Kids_Active_Movement/1089_etude-op-25-no-4.mp3"
+      },
+      {
+        "name": "Chopin - Twelve Etudes Op.25 - 11. No.2 in F minor presto.mp3",
+        "relativePath": "free_playlists/07_Kids_Active_Movement/Chopin%20-%20Twelve%20Etudes%20Op.25%20-%2011.%20No.2%20in%20F%20minor%20presto.mp3"
+      },
+      {
+        "name": "Chopin - Twelve Etudes Op.25 - 2. No.6 in G sharp minor - Allegro.mp3",
+        "relativePath": "free_playlists/07_Kids_Active_Movement/Chopin%20-%20Twelve%20Etudes%20Op.25%20-%202.%20No.6%20in%20G%20sharp%20minor%20-%20Allegro.mp3"
+      },
+      {
+        "name": "Chopin - Twelve Etudes Op.25 - 9. No.9 in G flat - Allegro vivace.mp3",
+        "relativePath": "free_playlists/07_Kids_Active_Movement/Chopin%20-%20Twelve%20Etudes%20Op.25%20-%209.%20No.9%20in%20G%20flat%20-%20Allegro%20vivace.mp3"
+      },
+      {
+        "name": "Mozart - Piano sonata No.11, Major - III. Alla Turca.mp3",
+        "relativePath": "free_playlists/07_Kids_Active_Movement/Mozart%20-%20Piano%20sonata%20No.11%2C%20Major%20-%20III.%20Alla%20Turca.mp3"
+      }
+    ]
+  },
+  {
+    "id": "08_Kids_Fun_Wonderland",
+    "title": "08 Kids Fun Wonderland",
+    "folder": "08_Kids_Fun_Wonderland",
+    "count": 5,
+    "files": [
+      {
+        "name": "1134_preludes-op-28-no-16.mp3",
+        "relativePath": "free_playlists/08_Kids_Fun_Wonderland/1134_preludes-op-28-no-16.mp3"
+      },
+      {
+        "name": "Chopin - Twelve Etudes Op.25 - 11. No.2 in F minor presto.mp3",
+        "relativePath": "free_playlists/08_Kids_Fun_Wonderland/Chopin%20-%20Twelve%20Etudes%20Op.25%20-%2011.%20No.2%20in%20F%20minor%20presto.mp3"
+      },
+      {
+        "name": "Piano Concerto no. 1, Op. 11.mp3",
+        "relativePath": "free_playlists/08_Kids_Fun_Wonderland/Piano%20Concerto%20no.%201%2C%20Op.%2011.mp3"
+      },
+      {
+        "name": "Sonata no. 16 In C 'Facile' [K 545].mp3",
+        "relativePath": "free_playlists/08_Kids_Fun_Wonderland/Sonata%20no.%2016%20In%20C%20%27Facile%27%20%5BK%20545%5D.mp3"
+      },
+      {
+        "name": "Sonatina No. 1 in C Major - III. Vivace.mp3",
+        "relativePath": "free_playlists/08_Kids_Fun_Wonderland/Sonatina%20No.%201%20in%20C%20Major%20-%20III.%20Vivace.mp3"
+      }
+    ]
+  }
+]
