@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Playlist QR Downloader</title>
+  <!-- คลังสร้าง QR Code -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-color: #0f172a;
+      color: #f8fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      width: 100%;
+      max-width: 360px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    /* Dropdown ขนาดใหญ่ กดง่ายบนมือถือ */
+    select {
+      width: 100%;
+      padding: 14px 16px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #ffffff;
+      background-color: #1e293b;
+      border: 2px solid #334155;
+      border-radius: 14px;
+      outline: none;
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2394a3b8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      background-size: 18px;
+    }
+    select:focus {
+      border-color: #38bdf8;
+    }
+    /* การ์ดใส่ QR Code สีขาว คอนทราสต์ชัด สแกนติดไว */
+    .qr-card {
+      background: #ffffff;
+      padding: 16px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 282px;
+      height: 282px;
+    }
+    .hint {
+      font-size: 13px;
+      color: #94a3b8;
+      text-align: center;
+      letter-spacing: 0.3px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- 1. Dropdown เลือก Playlist -->
+    <select id="playlistSelect">
+      <option value="">กำลังโหลด Playlist...</option>
+    </select>
+
+    <!-- 2. QR Code เต็มตา -->
+    <div class="qr-card">
+      <div id="qrcode"></div>
+    </div>
+
+    <!-- ข้อความคำแนะนำสั้นๆ -->
+    <div class="hint" id="statusText">
+      สแกนด้วยแอป Android เพื่อเริ่มโหลด
+    </div>
+  </div>
+
+  <script>
+    let playlists = [];
+    const selectEl = document.getElementById('playlistSelect');
+    const qrcodeContainer = document.getElementById('qrcode');
+    const statusText = document.getElementById('statusText');
+
+    // หา Base URL อัตโนมัติ (รองรับทั้ง localhost และ github.io)
+    const getBaseUrl = () => {
+      const url = window.location.href.split('?')[0].split('#')[0];
+      return url.endsWith('/') ? url : url.substring(0, url.lastIndexOf('/') + 1);
+    };
+
+    // 1. ดึงข้อมูลจาก playlists.json
+    async function loadPlaylists() {
+      try {
+        const res = await fetch('playlists.json');
+        if (!res.ok) throw new Error('Not found');
+        playlists = await res.json();
+        
+        // เติมตัวเลือก Dropdown
+        selectEl.innerHTML = playlists.map((p, idx) => 
+          `<option value="${idx}">${p.title} (${p.count} เพลง)</option>`
+        ).join('');
+
+        if (playlists.length > 0) {
+          drawQR(0);
+        }
+      } catch (err) {
+        selectEl.innerHTML = `<option>โหลด playlists.json ไม่สำเร็จ</option>`;
+        statusText.innerText = 'กรุณารัน generate_manifest.py เพื่อสร้าง JSON ก่อน';
+      }
+    }
+
+    // 2. เรนเดอร์ QR Code
+    function drawQR(index) {
+      const p = playlists[index];
+      if (!p) return;
+
+      const baseUrl = getBaseUrl();
+      
+      // ข้อมูล JSON ก้อนกระชับ ส่งลิ้งก์ให้ Android ไปดาวน์โหลดต่อ
+      const payload = JSON.stringify({
+        id: p.id,
+        files: p.files.map(f => baseUrl + f.relativePath)
+      });
+
+      qrcodeContainer.innerHTML = "";
+      new QRCode(qrcodeContainer, {
+        text: payload,
+        width: 250,
+        height: 250,
+        colorDark: "#000000",
+        colorLight: "#ffffff",
+        correctLevel: QRCode.CorrectLevel.L // ใช้ Level L จุด QR จะไม่ถี่เกินไป สแกนไวมาก
+      });
+
+      statusText.innerText = `พร้อมแสกน: ${p.title} (${p.count} เพลง)`;
+    }
+
+    // เมื่อเปลี่ยน Playlist ให้เปลี่ยน QR ทันที
+    selectEl.addEventListener('change', (e) => drawQR(e.target.value));
+
+    loadPlaylists();
+  </script>
+</body>
+</html>
